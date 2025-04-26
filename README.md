@@ -24,4 +24,39 @@ DesafioDIO-BancoDigital/
 │   └── Main.java            # Classe para testes das operações
 └── README.md                # Este arquivo
 
+🚀 Como Compilar e Executar
+Navegue até a pasta src:
+```bash
+cd DesafioDIO-BancoDigital/src
 
+```bash
+javac *.java
+
+```bash
+java Main
+
+Você verá no console as operações de depósito, saque e transferência, e os saldos atualizados.
+
+###💡 Principais Conceitos de POO
+Conceito | Onde aparece no código
+Abstração | abstract class Account
+Encapsulamento | Atributos private + getters/setters
+Herança | class CheckingAccount extends Account
+Polimorfismo | Métodos definidos em Account e herdados
+
+### Próximas melhorias
+
+Aplicar taxas em saques de CheckingAccount.
+
+Calcular rendimentos em SavingsAccount.
+
+Gerar extrato de transações.
+
+Adicionar validações e lançar exceções customizadas.
+
+
+⭐️ Se gostou, dê uma estrela no repositório!
+
+
+
+© 2025 - Rafafdx - Projeto de estudo Java OOP
