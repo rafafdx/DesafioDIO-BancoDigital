@@ -1,63 +1,41 @@
-## Desafio DIO - Banco Digital (Java OOP)
 
-Este projeto é um exercício de Programação Orientada a Objetos em Java, que simula um sistema bancário digital com dois tipos de conta:
+# DesafioDIO-BancoDigital
 
-- **CheckingAccount** (Conta Corrente)  
-- **SavingsAccount** (Conta Poupança)
+## 📘 Sobre
 
-As operações suportadas são:
+Este projeto é uma implementação orientada a objetos em Java de um sistema bancário digital, com funcionalidades de depósito, saque e transferência entre contas correntes e poupanças.
 
-1. Depósito (`deposit`)  
-2. Saque (`withdraw`)  
-3. Transferência entre contas da própria instituição (`transfer`)
+## 🛠️ Tecnologias Utilizadas
 
----
+- Java 17
+- Git e GitHub
 
-### 📁 Estrutura do Projeto
+## ⚙️ Funcionalidades
 
-```bash
-DesafioDIO-BancoDigital/
-├── src/
-│   ├── Account.java         # Classe abstrata com lógica comum
-│   ├── CheckingAccount.java # Conta Corrente (herda de Account)
-│   ├── SavingsAccount.java  # Conta Poupança (herda de Account)
-│   └── Main.java            # Classe para testes das operações
-└── README.md                # Este arquivo
+- **Depósito**: Adiciona saldo à conta.
+- **Saque**: Retira valor da conta, respeitando o saldo disponível.
+- **Transferência**: Move valor entre contas da mesma instituição.
 
-🚀 Como Compilar e Executar
+## 📦 Como Executar
 
-Navegue até a pasta src:
-```bash
-cd DesafioDIO-BancoDigital/src
+1. Clone este repositório:
 
-```bash
-javac *.java
+   ```bash
+   git clone https://github.com/seu-usuario/DesafioDIO-BancoDigital.git
 
-```bash
-java Main
+2. Navegue até o diretório do projeto:
 
-Você verá no console as operações de depósito, saque e transferência, e os saldos atualizados.
+   ```bash
+   cd DesafioDIO-BancoDigital
 
-### 💡 Principais Conceitos de POO
-Conceito | Onde aparece no código
-Abstração | abstract class Account
-Encapsulamento | Atributos private + getters/setters
-Herança | class CheckingAccount extends Account
-Polimorfismo | Métodos definidos em Account e herdados
+3. Compile e execute o projeto:
 
-### Próximas melhorias
+   ```bash
+   javac Main.java
 
-Aplicar taxas em saques de CheckingAccount.
-
-Calcular rendimentos em SavingsAccount.
-
-Gerar extrato de transações.
-
-Adicionar validações e lançar exceções customizadas.
-
+   
 
 ⭐️ Se gostou, dê uma estrela no repositório!
-
 
 
 © 2025 - Rafafdx - Projeto de estudo Java OOP
