@@ -25,6 +25,7 @@ DesafioDIO-BancoDigital/
 └── README.md                # Este arquivo
 
 🚀 Como Compilar e Executar
+
 Navegue até a pasta src:
 ```bash
 cd DesafioDIO-BancoDigital/src
@@ -37,7 +38,7 @@ java Main
 
 Você verá no console as operações de depósito, saque e transferência, e os saldos atualizados.
 
-###💡 Principais Conceitos de POO
+### 💡 Principais Conceitos de POO
 Conceito | Onde aparece no código
 Abstração | abstract class Account
 Encapsulamento | Atributos private + getters/setters
