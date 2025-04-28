@@ -21,7 +21,7 @@ Este projeto é uma implementação orientada a objetos em Java de um sistema ba
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/DesafioDIO-BancoDigital.git
+   git clone https://github.com/rafafdx/DesafioDIO-BancoDigital.git
 
 2. Navegue até o diretório do projeto:
 
@@ -32,10 +32,13 @@ Este projeto é uma implementação orientada a objetos em Java de um sistema ba
 
    ```bash
    javac Main.java
-
+   java Main
+    ```
    
 
 ⭐️ Se gostou, dê uma estrela no repositório!
 
 
-© 2025 - Rafafdx - Projeto de estudo Java OOP
+Feito com 💻 por rafafdx
+
+© 2025 - Projeto de estudo Java OOP
